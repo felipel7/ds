@@ -1,0 +1,16 @@
+{
+  "name": "stencil-library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "esm/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "cjs",
+    "collection",
+    "components",
+    "esm",
+    "types",
+    "index.js",
+    "index.cjs.js"
+  ]
+}
