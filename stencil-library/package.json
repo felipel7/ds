@@ -1,0 +1,34 @@
+{
+  "name": "stencil-library",
+  "version": "1.0.3",
+  "description": "Stencil Component Starter",
+  "main": "index.cjs.js",
+  "module": "index.js",
+  "types": "types/interfaces.d.ts",
+  "collection": "collection/collection-manifest.json",
+  "collection:main": "collection/index.js",
+  "unpkg": "stencil-library/stencil-library.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stenciljs/component-starter.git"
+  },
+  "files": [
+    "**/*"
+  ],
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs.js",
+      "types": "./types/interfaces.d.ts"
+    },
+    "./components": {
+      "types": "./types/components.d.ts"
+    },
+    "./components/*": "./components/*"
+  },
+  "dependencies": {},
+  "license": "MIT",
+  "peerDependencies": {
+    "@stencil/core": "^4.27.1"
+  }
+}
