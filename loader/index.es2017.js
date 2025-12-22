@@ -1,1 +1,0 @@
-export * from '../stencil-library/esm/loader.js';
