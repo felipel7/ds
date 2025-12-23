@@ -3,13 +3,12 @@
   "description": "Gapin Design System",
   "main": "core/loader/index.cjs.js",
   "module": "core/loader/index.js",
-  "types": "core/loader/index.d.ts",
-  "files": ["core"],
+  "types": "core/loader/types/components.d.ts",
   "exports": {
     ".": {
       "import": "./core/loader/index.js",
       "require": "./core/loader/index.cjs.js",
-      "types": "./core/loader/index.d.ts"
+      "types": "./core/loader/types/components.d.ts"
     },
     "./loader": {
       "import": "./core/loader/esm/loader.js",
@@ -17,12 +16,11 @@
       "types": "./core/loader/index.d.ts"
     },
     "./components": {
-      "import": "./core/index.js",
       "types": "./core/loader/types/components.d.ts"
     },
     "./components/*": {
       "import": "./core/*.js",
-      "types": "./core/loader/types/components/*.d.ts"
+      "types": "./core/*.d.ts"
     }
   }
 }

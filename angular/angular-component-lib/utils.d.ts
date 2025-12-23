@@ -7,3 +7,4 @@ export declare function ProxyCmp(opts: {
     inputs?: any;
     methods?: any;
 }): (cls: any) => any;
+//# sourceMappingURL=utils.d.ts.map
