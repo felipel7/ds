@@ -1,0 +1,22 @@
+{
+  "name": "@gapin-ds/angular",
+  "description": "Gapin Design System - Angular component wrappers",
+  "main": "components.js",
+  "module": "components.js",
+  "types": "components.d.ts",
+  "exports": {
+    ".": {
+      "import": "./components.js",
+      "types": "./components.d.ts"
+    }
+  },
+  "peerDependencies": {
+    "@angular/common": ">=17.0.0",
+    "@angular/core": ">=17.0.0"
+  },
+  "dependencies": {
+    "@gapin-ds/core": "git+https://github.com/felipel7/ds.git#23-ok-05",
+    "rxjs": "^7.5.0",
+    "tslib": "^2.3.0"
+  }
+}
