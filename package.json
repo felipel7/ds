@@ -18,11 +18,11 @@
     },
     "./components": {
       "import": "./core/index.js",
-      "types": "./core/index.d.ts"
+      "types": "./core/loader/types/components.d.ts"
     },
     "./components/*": {
       "import": "./core/*.js",
-      "types": "./core/*.d.ts"
+      "types": "./core/loader/types/components/*.d.ts"
     }
   }
 }

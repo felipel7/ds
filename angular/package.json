@@ -15,7 +15,7 @@
     "@angular/core": ">=17.0.0"
   },
   "dependencies": {
-    "@gapin-ds/core": "git+https://github.com/felipel7/ds.git#23-ok-05",
+    "@gapin-ds/core": "git+https://github.com/felipel7/ds.git#23-ok-07",
     "rxjs": "^7.5.0",
     "tslib": "^2.3.0"
   }
