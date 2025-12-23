@@ -1,4 +1,4 @@
-import type { Components, JSX } from "../types/components";
+import type { Components, JSX } from "./loader/types/components";
 
 interface MyComponent extends Components.MyComponent, HTMLElement {}
 export const MyComponent: {

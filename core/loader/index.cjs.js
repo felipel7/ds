@@ -1,1 +1,1 @@
-module.exports = require('../cjs/loader.cjs.js');
+module.exports = require('./cjs/index.cjs.js');
