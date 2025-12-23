@@ -7,5 +7,25 @@
   "types": "core/loader/index.d.ts",
   "files": [
     "core"
-  ]
+  ],
+  "exports": {
+    ".": {
+      "import": "./core/loader/index.js",
+      "require": "./core/loader/index.cjs.js",
+      "types": "./core/loader/index.d.ts"
+    },
+    "./loader": {
+      "import": "./core/loader/index.js",
+      "require": "./core/loader/index.cjs.js",
+      "types": "./core/loader/index.d.ts"
+    },
+    "./components": {
+      "import": "./core/index.js",
+      "types": "./core/index.d.ts"
+    },
+    "./components/*": {
+      "import": "./core/*.js",
+      "types": "./core/*.d.ts"
+    }
+  }
 }
