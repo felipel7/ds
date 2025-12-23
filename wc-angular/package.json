@@ -1,0 +1,23 @@
+{
+  "name": "@gapin-ds/wc-angular",
+  "version": "0.0.1",
+  "description": "Gapin Design System - Angular Wrappers",
+  "license": "UNLICENSED",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "peerDependencies": {
+    "@angular/common": ">=17.0.0",
+    "@angular/core": ">=17.0.0"
+  },
+  "dependencies": {
+    "@gapin-ds/core": "^0.0.1",
+    "tslib": "^2.3.0"
+  }
+}
