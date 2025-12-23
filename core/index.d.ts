@@ -1,5 +1,5 @@
 /* GapinDs custom elements */
-export { MyComponent as MyComponent } from './loader/types/components/my-component/my-component';
+export { MyComponent as MyComponent } from '../../libs/core/dist/types/components/my-component/my-component';
 export { defineCustomElement as defineCustomElementMyComponent } from './my-component';
 
 /**
@@ -35,4 +35,4 @@ export interface SetPlatformOptions {
   rel?: (el: EventTarget, eventName: string, listener: EventListenerOrEventListenerObject, options: boolean | AddEventListenerOptions) => void;
 }
 export declare const setPlatformOptions: (opts: SetPlatformOptions) => void;
-export * from './loader/types/components';
+export * from '../../libs/core/dist/types/components';
