@@ -1,13 +1,10 @@
 {
   "name": "@gapin-ds/core",
-  "version": "1.0.0",
-  "description": "Gapin Design System Web Components",
+  "description": "Gapin Design System",
   "main": "core/loader/index.cjs.js",
   "module": "core/loader/index.js",
   "types": "core/loader/index.d.ts",
-  "files": [
-    "core"
-  ],
+  "files": ["core"],
   "exports": {
     ".": {
       "import": "./core/loader/index.js",
