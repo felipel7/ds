@@ -15,8 +15,8 @@
       "types": "./core/loader/index.d.ts"
     },
     "./loader": {
-      "import": "./core/loader/index.js",
-      "require": "./core/loader/index.cjs.js",
+      "import": "./core/loader/esm/loader.js",
+      "require": "./core/loader/cjs/loader.cjs.js",
       "types": "./core/loader/index.d.ts"
     },
     "./components": {
