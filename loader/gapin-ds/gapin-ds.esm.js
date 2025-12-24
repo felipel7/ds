@@ -1,1 +1,0 @@
-import{p as m,b as p}from"./p-DpimJbFs.js";export{s as setNonce}from"./p-DpimJbFs.js";import{g as t}from"./p-DQuL1Twl.js";(()=>{const s=import.meta.url,p={};return""!==s&&(p.resourcesUrl=new URL(".",s).href),m(p)})().then((async s=>(await t(),p([["p-e6fdca8f",[[769,"my-component",{first:[1],middle:[1],last:[1]}]]]],s))));
